@@ -1,0 +1,22 @@
+.social-sidebar {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99999;
+}
+
+.social-sidebar a {
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.social-sidebar a:hover {
+    color: #555; /* tono gris al pasar el mouse */
+    transform: scale(1.2);
+}
+

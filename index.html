@@ -11,25 +11,12 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
     <link rel="stylesheet" href="assets/css/johndoe.css">
+    <link rel="stylesheet" href="assets/css/iconos-laterales.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <header class="header">
         <div class="container">
-            <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook"
-                            aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter"
-                            aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google"
-                            aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram"
-                            aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github"
-                            aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-linkedin"
-                            aria-hidden="true"></i></a></li>
-            </ul>
             <div class="header-content">
                 <h4 class="header-subtitle">Hola, soy</h4>
                 <h1 class="header-title">Fredy Leon</h1>
@@ -68,9 +55,6 @@
                     <li class="nav-item">
                         <a href="#portfolio" class="nav-link">Portafolio</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#blog" class="nav-link">Blog</a>
-                    </li>
                     <li class="nav-item last-item">
                         <a href="#contact" class="nav-link">Contacto</a>
                     </li>
@@ -103,19 +87,31 @@
                 <span class="line mb-5"></span>
                 <ul class="mt40 info list-unstyled">
                     <li><span>Birthdate</span> : 01/01/1995</li>
-                    <li><span>Email</span> : jfleong6@gmail.com</li>
+                    <li><span>Email</span> : ingfredy6@gmail.com</li>
                     <li><span>Celular</span> : + (57) 317 541 4049</li>
                     <li><span>Dirección</span> : Bucaramanga - Santander </li>
                 </ul>
                 <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook"
-                                aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-google"
-                                aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-linkedin"
-                                aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-github"
-                                aria-hidden="true"></i></a></li>
+
+                    <li class="my-2">
+                        <a href="https://www.facebook.com/fredy.leon.336/" target="_blank"><i
+                                class="ti-facebook"></i></a>
+                    </li>
+                    <li class="my-2">
+                        <a href="mailto:ingfredy6@gmail.com" target="_blank"><i class="ti-google"></i></a>
+                    </li>
+                    <li class="my-2">
+                        <a href="https://www.instagram.com/fredy.leon.336/" target="_blank"><i
+                                class="ti-instagram"></i></a>
+                    </li>
+                    <li class="my-2">
+                        <a href="https://github.com/jfleong6" target="_blank"><i class="ti-github"></i></a>
+                    </li>
+                    <li class="my-2">
+                        <a href="https://www.linkedin.com/in/jhon-leon-956a94326/" target="_blank"><i
+                                class="ti-linkedin"></i></a>
+                    </li>
+
                 </ul>
             </div>
             <div class="col-lg-5 about-card">
@@ -520,10 +516,11 @@
 
             <div class="portfolio mt-5">
                 <!-- Filtros -->
-                <div class="filters mb-5">
-                    <a href="#" data-filter=".electronics" class="active">🔧 Electrónica y Automatización</a>
-                    <a href="#" data-filter=".software">💻 Desarrollo de Software</a>
-                    <a href="#" data-filter=".freelance">🌐 Freelance y Empresarial</a>
+                <div class="filters mb-5 mb-md-6 text-center flex-wrap d-flex justify-content-center gap-3">
+                    <a href="#" data-filter="*" class="filter-link active">🌟 Todos</a>
+                    <a href="#" data-filter=".electronics" class="filter-link">🔧 Electrónica y Automatización</a>
+                    <a href="#" data-filter=".software" class="filter-link">💻 Desarrollo de Software</a>
+                    <a href="#" data-filter=".freelance" class="filter-link">🌐 Freelance y Empresarial</a>
                 </div>
 
                 <div class="portfolio-container row">
@@ -601,8 +598,7 @@
 
                     <div class="col-md-6 col-lg-4 electronics">
                         <div class="portfolio-item">
-                            <img src="https://m.media-amazon.com/images/I/61EPtORR3gL._AC_UF1000,1000_QL80_.jpg"
-                                class="img-fluid" alt="Sistema meteorológico IoT">
+                            <img src="/assets/imgs/estacion.png" class="img-fluid" alt="Sistema meteorológico IoT">
                             <div class="content-holder">
                                 <div class="text-holder">
                                     <h6 class="title">Sistema Meteorológico Inteligente</h6>
@@ -615,8 +611,8 @@
 
                     <div class="col-md-6 col-lg-4 electronics">
                         <div class="portfolio-item">
-                            <img src="https://innovacionindustrial.net/wp-content/uploads/planta-industrial-moderna-soluciones.webp"
-                                class="img-fluid" alt="Integración solar y automatización industrial">
+                            <img src="/assets/imgs/panel.jpg" class="img-fluid"
+                                alt="Integración solar y automatización industrial">
                             <div class="content-holder">
                                 <div class="text-holder">
                                     <h6 class="title">Integración Solar y Automatización Industrial</h6>
@@ -629,8 +625,7 @@
 
                     <div class="col-md-6 col-lg-4 electronics">
                         <div class="portfolio-item">
-                            <img src="https://img.interempresas.net/FotosArtProductos/P187849.jpg"
-                                class="img-fluid" alt="Máquina de corte automatizada">
+                            <img src="/assets/imgs/icp.png" class="img-fluid" alt="Máquina de corte automatizada">
                             <div class="content-holder">
                                 <div class="text-holder">
                                     <h6 class="title">Máquina de Corte Automatizada</h6>
@@ -644,8 +639,7 @@
                     <!-- 💻 DESARROLLO DE SOFTWARE -->
                     <div class="col-md-6 col-lg-4 software">
                         <div class="portfolio-item">
-                            <img src="https://cdn.pixabay.com/photo/2017/03/02/23/59/laptop-2110639_1280.jpg"
-                                class="img-fluid" alt="Gestión de restaurante">
+                            <img src="/assets/imgs/rest.png" class="img-fluid" alt="Gestión de restaurante">
                             <div class="content-holder">
                                 <div class="text-holder">
                                     <h6 class="title">Sistema de Gestión de Restaurante</h6>
@@ -658,8 +652,7 @@
 
                     <div class="col-md-6 col-lg-4 software">
                         <div class="portfolio-item">
-                            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/ecommerce-1837440_1280.jpg"
-                                class="img-fluid" alt="Tienda web Flask">
+                            <img src="/assets/imgs/tienda-web.png" class="img-fluid" alt="Tienda web Flask">
                             <div class="content-holder">
                                 <div class="text-holder">
                                     <h6 class="title">Tienda Web Completa</h6>
@@ -672,8 +665,7 @@
 
                     <div class="col-md-6 col-lg-4 software">
                         <div class="portfolio-item">
-                            <img src="https://cdn.pixabay.com/photo/2017/08/06/07/31/technology-2593363_1280.jpg"
-                                class="img-fluid" alt="Simulador bancario">
+                            <img src="/assets/imgs/banc.png" class="img-fluid" alt="Simulador bancario">
                             <div class="content-holder">
                                 <div class="text-holder">
                                     <h6 class="title">Simulador Bancario</h6>
@@ -686,8 +678,7 @@
 
                     <div class="col-md-6 col-lg-4 software">
                         <div class="portfolio-item">
-                            <img src="https://cdn.pixabay.com/photo/2016/03/09/09/30/java-1245959_1280.png"
-                                class="img-fluid" alt="Tienda veterinaria Java">
+                            <img src="/assets/imgs/veterinaria.png" class="img-fluid" alt="Tienda veterinaria Java">
                             <div class="content-holder">
                                 <div class="text-holder">
                                     <h6 class="title">Tienda Veterinaria (Java + MySQL)</h6>
@@ -701,8 +692,7 @@
                     <!-- 🌐 FREELANCE Y EMPRESARIAL -->
                     <div class="col-md-6 col-lg-4 freelance">
                         <div class="portfolio-item">
-                            <img src="https://cdn.pixabay.com/photo/2021/05/04/12/08/fintech-6228766_1280.jpg"
-                                class="img-fluid" alt="Feuis pasarela de pagos">
+                            <img src="/assets/imgs/pagos.png" class="img-fluid" alt="Feuis pasarela de pagos">
                             <div class="content-holder">
                                 <div class="text-holder">
                                     <h6 class="title">Feuis – Pasarela de Pagos</h6>
@@ -715,8 +705,7 @@
 
                     <div class="col-md-6 col-lg-4 freelance">
                         <div class="portfolio-item">
-                            <img src="https://cdn.pixabay.com/photo/2017/03/14/12/59/spreadsheet-2145441_1280.jpg"
-                                class="img-fluid" alt="Gestión masiva de asociados">
+                            <img src="/assets/imgs/datos.png" class="img-fluid" alt="Gestión masiva de asociados">
                             <div class="content-holder">
                                 <div class="text-holder">
                                     <h6 class="title">Gestión Masiva de Asociados</h6>
@@ -729,8 +718,7 @@
 
                     <div class="col-md-6 col-lg-4 freelance">
                         <div class="portfolio-item">
-                            <img src="https://cdn.pixabay.com/photo/2018/03/22/14/52/conference-3248255_1280.jpg"
-                                class="img-fluid" alt="Registro de eventos">
+                            <img src="/assets/imgs/niño.png" class="img-fluid" alt="Registro de eventos">
                             <div class="content-holder">
                                 <div class="text-holder">
                                     <h6 class="title">Sistema de Registro para Eventos</h6>
@@ -747,177 +735,123 @@
     </section>
     <!-- End of portfolio section -->
 
-    <section class="section" id="blog">
+
+    <!-- <div id="map" class="map"></div> -->
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact py-5 bg-light">
         <div class="container">
-            <h2 class="mb-5">Latest <span class="text-danger">News</span></h2>
-            <div class="row">
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog1.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+            <div class="row justify-content-center">
+
+                <!-- FORMULARIO -->
+                <div class="col-lg-7 col-md-10">
+                    <div class="card shadow-lg border-0 rounded-4 p-4">
+                        <h3 class="fw-bold mb-3 text-primary">Contáctame</h3>
+                        <p class="text-muted mb-4">¿Tienes un proyecto o idea en mente? Escríbeme y hablemos sobre cómo
+                            puedo ayudarte.</p>
+
+                        <form id="contact-form" action="https://formsubmit.co/ingfredy6@gmail.com" method="POST">
+                            <div class="mb-3">
+                                <input type="text" name="name" class="form-control" placeholder="Nombre *" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="email" class="form-control" placeholder="Correo electrónico *"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" name="phone" class="form-control" placeholder="Celular (opcional)">
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="message" class="form-control" rows="5" placeholder="Mensaje *"
+                                    required></textarea>
+                            </div>
+
+                            <!-- Campos ocultos -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="box">
+
+                            <button type="submit" class="btn btn-primary w-100 fw-semibold">Enviar mensaje</button>
+                        </form>
+
                     </div>
-                    <div class="content-holder">
-                        <h6 class="title">Consectetur adipisicing elit</h6>
+                </div>
 
-                        <p class="post-details">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                            <a href="#"><i class="ti-comment"></i> 123</a>
-                        </p>
+                <!-- INFORMACIÓN DE CONTACTO -->
+                <div class="col-lg-4 col-md-10 mt-5 mt-lg-0">
+                    <div class="card border-0 bg-dark text-white shadow-lg rounded-4 p-4">
+                        <h4 class="mb-3">Información de contacto</h4>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit
-                            delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium
-                            neque numquam mollitia modi quasi distinctio.</p>
+                        <div class="mb-3 d-flex align-items-start">
+                            <i class="ti-mobile fs-4 me-3"></i>
+                            <div>
+                                <h6 class="mb-1 text-light">Celular</h6>
+                                <p class="mb-0 text-muted">+57 317 541 4049</p>
+                            </div>
+                        </div>
 
-                        <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b>
-                        </p>
-                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis
-                            cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
+                        <div class="mb-3 d-flex align-items-start">
+                            <i class="ti-map-alt fs-4 me-3"></i>
+                            <div>
+                                <h6 class="mb-1 text-light"> Ubicación</h6>
+                                <p class="mb-0 text-muted">Bucaramanga, Colombia</p>
+                            </div>
+                        </div>
 
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                        <div class="mb-4 d-flex align-items-start">
+                            <i class="ti-envelope fs-4 me-3"></i>
+                            <div>
+                                <h6 class="mb-1 text-light">Correo</h6>
+                                <p class="mb-0 text-muted">ingfredy6@gmail.com</p>
+                            </div>
+                        </div>
                     </div>
-                </div><!-- end of blog wrapper -->
-
-                <!-- blog-card -->
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog2.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Explicabo illo</h6>
-
-                        <p class="post-details">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
-                            <a href="#"><i class="ti-comment"></i> 264</a>
-                        </p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim,
-                            vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro
-                            quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto
-                            omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae?
-                            Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non
-                            dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus
-                            eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
-
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-                <!-- blog-card -->
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog3.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h4 class="title">Porro Quisqua</h4>
-
-                        <p class="post-details">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 431</a>
-                            <a href="#"><i class="ti-comment"></i> 312</a>
-                        </p>
-
-                        <p> consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad
-                            iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem
-                            aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum
-                            placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis
-                            similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis
-                            quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio
-                            sit repudiandae possimus sunt. Ipsum, rem.</p>
-
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
+                </div>
 
             </div>
         </div>
     </section>
 
-    <div class="section contact" id="contact">
-        <div id="map" class="map"></div>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer py-4 bg-dark text-center text-light">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="contact-form-card">
-                        <h4 class="contact-title">Send a message</h4>
-                        <form action="">
-                            <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Name *" required>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" id=" placeholder=" Message *" rows="7"
-                                    required></textarea>
-                            </div>
-                            <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-primary">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-info-card">
-                        <h4 class="contact-title">Get in touch</h4>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-mobile icon-md"></i>
-                            </div>
-                            <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (123) 456-789</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-map-alt icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">12345 Fake ST NoWhere AB
-                                        Country.</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-envelope icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">info@website.com</span></h6>
-                            </div>
-                        </div>
-                        <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github"
-                                        aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <footer class="footer py-3">
-        <div class="container">
-            <p class="small mb-0 text-light">
+            <p class="mb-2 small text-white">
                 &copy;
-                <script>document.write(new Date().getFullYear())</script> Created With <i
-                    class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span
-                        class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a>
+                <script>document.write(new Date().getFullYear())</script>
+                <span class="fw-semibold text-primary">Fredy Leon</span> | Ingeniero Electrónico & Desarrollador Web
+            </p>
+
+            <p class="small text-secondary mb-0">
+                Desarrollado con <i class="ti-heart text-danger"></i> y mucho café ☕
             </p>
         </div>
     </footer>
 
+    <!-- Barra lateral de redes -->
+    <div class="social-sidebar">
+        <ul class="list-unstyled mb-0">
+            <li class="my-2">
+                <a href="https://www.facebook.com/fredy.leon.336/" target="_blank"><i class="ti-facebook"></i></a>
+            </li>
+            <li class="my-2">
+                <a href="mailto:ingfredy6@gmail.com" target="_blank"><i class="ti-google"></i></a>
+            </li>
+            <li class="my-2">
+                <a href="https://www.instagram.com/fredy.leon.336/" target="_blank"><i class="ti-instagram"></i></a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/jfleong6" target="_blank"><i class="ti-github"></i></a>
+            </li>
+            <li class="my-2">
+                <a href="https://www.linkedin.com/in/jhon-leon-956a94326/" target="_blank"><i
+                        class="ti-linkedin"></i></a>
+            </li>
+        </ul>
+    </div>
+
+
+
     <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- bootstrap 3 affix -->
@@ -926,12 +860,40 @@
     <!-- Isotope  -->
     <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
 
-    <!-- Google mpas -->
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
     <!-- JohnDoe js -->
     <script src="assets/js/johndoe.js"></script>
+    <script>
+            (function () {
+                emailjs.init("7gADeqbLMKfRlDlST"); // <-- tu PUBLIC KEY aquí
+            })();
+
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            emailjs.sendForm('service_snl69t5', 'template_kaip0nl', this)
+                .then(function () {
+                    Swal.fire({
+                        icon: 'success',
+                        title: '¡Gracias!',
+                        text: 'Tu mensaje ha sido enviado correctamente 🚀',
+                        confirmButtonColor: '#0d6efd'
+                    });
+                    document.getElementById('contact-form').reset();
+                }, function (error) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Ups...',
+                        text: 'Hubo un error al enviar tu mensaje. Inténtalo más tarde.',
+                        confirmButtonColor: '#dc3545'
+                    });
+                    console.error('FAILED...', error);
+                });
+        });
+    </script>
+
 
 </body>
 
